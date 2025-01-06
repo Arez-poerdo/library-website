@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library - Free Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Online Library</h1>
+        <nav>
+            <ul>
+                <li><a href="#fiction">Fiction</a></li>
+                <li><a href="#science">Science</a></li>
+                <li><a href="#history">History</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="fiction">
+        <h2>Fiction Books</h2>
+        <div class="book">
+            <h3>The Great Gatsby</h3>
+            <p>Author: F. Scott Fitzgerald</p>
+            <button onclick="readBook('The Great Gatsby')">Read</button>
+            <button onclick="listenBook('The Great Gatsby')">Listen</button>
+            <a href="https://www.gutenberg.org/ebooks/64317" target="_blank">Download</a>
+        </div>
+    </section>
+
+    <section id="science">
+        <h2>Science Books</h2>
+        <div class="book">
+            <h3>A Brief History of Time</h3>
+            <p>Author: Stephen Hawking</p>
+            <button onclick="readBook('A Brief History of Time')">Read</button>
+            <button onclick="listenBook('A Brief History of Time')">Listen</button>
+            <a href="https://www.gutenberg.org/ebooks/1342" target="_blank">Download</a>
+        </div>
+    </section>
+
+    <section id="history">
+        <h2>History Books</h2>
+        <div class="book">
+            <h3>The History of the Decline and Fall of the Roman Empire</h3>
+            <p>Author: Edward Gibbon</p>
+            <button onclick="readBook('The History of the Decline and Fall of the Roman Empire')">Read</button>
+            <button onclick="listenBook('The History of the Decline and Fall of the Roman Empire')">Listen</button>
+            <a href="https://www.gutenberg.org/ebooks/25717" target="_blank">Download</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Library Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
